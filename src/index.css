@@ -34,3 +34,47 @@ span.resultado {
   opacity: 0;
   transform: translateY(-10%);
 }
+/* App */
+.contentApp {
+  max-width: 600px;
+  margin: auto;
+}
+.formContent {
+  background-color: #fff;
+  padding: 3rem;
+}
+
+/* header */
+.ContentHeader {
+  background-color: #26C6DA;
+  padding: 10px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.textHeader {
+  font-size: 2rem;
+  margin: 0;
+  font-family: "Slabo 27px", serif;
+  text-align: center;
+}
+
+/* Form */
+.fieldForm {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+.labelForm {
+  flex: 0 0 100px;
+}
+.selectForm {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #e1e1e1;
+  -webkit-appearance: none;
+}
+.inputRadio {
+  margin: 0 1rem;
+}

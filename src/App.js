@@ -1,6 +1,16 @@
+import Header from "./components/Header";
+import Form from "./components/Form";
+
 function App() {
   return (
-    <h1>Quotation</h1>
+    <div className="contentApp">
+      <Header title="Insurance quote"/>
+
+      <div className="formContent">
+        <Form />
+      </div>
+    </div>
+    
   );
 }
 
